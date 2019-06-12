@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
-namespace async_todo.Models
+namespace async_todo.DAL.Entities
 {
-    public partial class Tasks
+    public class Tasks
     {
         public int Id { get; set; }
         public bool Completed { get; set; }
